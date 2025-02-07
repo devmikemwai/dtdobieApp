@@ -38,13 +38,13 @@ This project is a simple Vehicle Sales Profit Calculator built using Avalonia fo
    dotnet run
 ### Project Structure
    dtdobieApp/
-   ├── Assets/
-   │   └── car.jpg
-   ├── MyAvaloniaApp.csproj
-   ├── Program.cs
-   ├── Vehicle.cs
-   ├── MainWindow.axaml
-   └── MainWindow.axaml.cs
+      Assets/
+         car.jpg
+      MyAvaloniaApp.csproj
+      Program.cs
+      Vehicle.cs
+      MainWindow.axaml
+      MainWindow.axaml.cs
 ### License
 This project is licensed under the MIT License.
 
