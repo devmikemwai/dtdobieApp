@@ -1,0 +1,35 @@
+<Window xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Class="MyAvaloniaApp.MainWindow" Title="Vehicle Sales Profit Calculator">
+    <Window.Styles>
+        <Style Selector="TextBox">
+            <Setter Property="Margin" Value="0,5,0,5"/>
+            <Setter Property="Padding" Value="5"/>
+        </Style>
+        <Style Selector="Button">
+            <Setter Property="Margin" Value="0,20,0,0"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Background" Value="#007ACC"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+    </Window.Styles>
+    <StackPanel Margin="50">
+        <!-- <Image Source="avares://MyAvaloniaApp/Assets/car.jpg" Width="300" Height="200" Stretch="Uniform" Margin="0,0,0,20"/> -->
+
+        <TextBlock Text="Make" FontWeight="Bold"/>
+        <TextBox Name="MakeTextBox"/>
+
+        <TextBlock Text="Model" FontWeight="Bold"/>
+        <TextBox Name="ModelTextBox"/>
+
+        <TextBlock Text="Engine Number" FontWeight="Bold"/>
+        <TextBox Name="EngineNumberTextBox"/>
+
+        <TextBlock Text="Sale Price" FontWeight="Bold"/>
+        <TextBox Name="SalePriceTextBox"/>
+
+        <Button Content="Calculate Profit" Click="CalculateProfit"/>
+
+        <TextBlock Name="ProfitTextBlock" Margin="0,20,0,0" FontWeight="Bold" FontSize="16"/>
+    </StackPanel>
+</Window>
