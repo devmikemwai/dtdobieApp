@@ -1,5 +1,5 @@
 <Window xmlns="https://github.com/avaloniaui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Class="MyAvaloniaApp.MainWindow" Title="Vehicle Sales Profit Calculator">
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Class="dtDobie.MainWindow" Title="Vehicle Sales Profit Calculator">
     <Window.Styles>
         <Style Selector="TextBox">
             <Setter Property="Margin" Value="0,5,0,5"/>
@@ -14,7 +14,7 @@
         </Style>
     </Window.Styles>
     <StackPanel Margin="50">
-        <!-- <Image Source="avares://MyAvaloniaApp/Assets/car.jpg" Width="300" Height="200" Stretch="Uniform" Margin="0,0,0,20"/> -->
+        <!-- <Image Source="avares://dtDobie/Assets/car.jpg" Width="300" Height="200" Stretch="Uniform" Margin="0,0,0,20"/> -->
 
         <TextBlock Text="Make" FontWeight="Bold"/>
         <TextBox Name="MakeTextBox"/>

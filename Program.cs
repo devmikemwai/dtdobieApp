@@ -1,7 +1,8 @@
 ﻿using Avalonia;
+using MyAvaloniaApp;
 using System;
 
-namespace MyAvaloniaApp;
+namespace dtDobie;
 
 class Program
 {

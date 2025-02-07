@@ -2,7 +2,7 @@ using Avalonia.Controls;
 using Avalonia.Interactivity;
 using System;
 
-namespace MyAvaloniaApp
+namespace dtDobie
 {
     public partial class MainWindow : Window
     {
