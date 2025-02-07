@@ -25,5 +25,30 @@ This project is a simple Vehicle Sales Profit Calculator built using Avalonia fo
 ### Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/vehicle-sales-profit-calculator.git
-   cd vehicle-sales-profit-calculator
+   git clone https://github.com/devmikemwai/dtdobieApp.git
+   cd dtdobieApp
+2. Install Avalonia
+   --- sh
+   dotnet new install Avalonia.Templates
+3. Build the Project
+   --- sh
+   dotnet build
+4. Run the project
+   --- sh
+   dotnet run
+### Project Structure
+   dtdobieApp/
+   ├── Assets/
+   │   └── car.jpg
+   ├── MyAvaloniaApp.csproj
+   ├── Program.cs
+   ├── Vehicle.cs
+   ├── MainWindow.axaml
+   └── MainWindow.axaml.cs
+### License
+This project is licensed under the MIT License.
+
+### Acknowledgements
+. Avalonia Team for the amazing UI framework.
+. .NET Team for the powerful development platform.
+. Visual Studio Code for the great development environment.
